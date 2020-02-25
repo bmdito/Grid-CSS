@@ -1,0 +1,34 @@
+.grid {
+  width: 100%;
+  min-height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-areas:
+    "header header header header"
+    "section1 section1 section2 section2"
+    "footer footer footer footer";
+}
+
+/* .column {
+  display: flex;
+} */
+
+.header {
+  background-color: red;
+  grid-area: header;
+}
+
+.section1 {
+  background-color: blue;
+  grid-area: section1;
+}
+
+.section2 {
+  background-color: purple;
+  grid-area: section2;
+}
+
+.footer {
+  background-color: orange;
+  grid-area: footer;
+}

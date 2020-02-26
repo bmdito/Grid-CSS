@@ -32,3 +32,13 @@
   background-color: orange;
   grid-area: footer;
 }
+
+@media only screen and (max-width: 500px) {
+  .grid {
+    grid-template-areas:
+      "header header header header"
+      "section1 section1 section1 section1"
+      "section2 section2 section2 section2"
+      "footer footer footer footer";
+  }
+}

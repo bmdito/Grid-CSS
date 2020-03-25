@@ -31,6 +31,9 @@
 .footer {
   background-color: orange;
   grid-area: footer;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 @media only screen and (max-width: 500px) {
